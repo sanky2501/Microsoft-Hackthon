@@ -2,6 +2,7 @@
 Microsoft Open Source Hackthon
 
 Current Status:
+
 We have created a small model similar to our idea. The final model will take input from API and the output will essentially be a timer. We are yet to add an API to our model (working on it currently).  
 Do take a look at it and let us know what all changes we can make in the basic structure. 
 
