@@ -21,12 +21,16 @@ Traffic Density will be tracked using a ‘Traffic Flow’ API. This traffic den
 REPO:
 
 STEP 1: Calculate the Traffic Signal Timer formula for a Cross-Road. (Used Random Integer Instead of Real Time Data)
-        FILE:  Signal_Timer_Model_1.ipynb 
-    
+
+FILE:  Signal_Timer_Model_1.ipynb 
+
+
 STEP 2: Accessing Real Time Data. (Trial was Done Using TomTom API - Later Shifted to AZURE MAPS API)
-        FILE: Signal Timer Model 2.ipynb
+
+FILE: Signal Timer Model 2.ipynb
 
 STEP 3: Integration of STEP 1 and STEP 2 - Using Real Time data with Signal Timer Algorithm
-        FILES: Integration 1.ipynb, Integration 2.ipynb.
+
+FILES: Integration 1.ipynb, Integration 2.ipynb, parihar1.PNG, parihar2.PNG, parihar3.PNG, parihar4.PNG
         
 
