@@ -1,15 +1,27 @@
 # Microsoft-Hackthon
 Microsoft Open Source Hackthon
+TEAM: TECHNO PANDITS
 
-Current Status:
-We have created a model similar to our idea. This Model takes input of traffic flow from TomTom API, currently for Parihar Chowk, Aundh, Pune. The signal timers are set inversely proportional to the traffic flow rate.
-Please check out the relevant photos which are attached to this repo.
-  
-Next Step:
-We are trying to use ML to find:
-Balance between Efficiency and Fairness
-e.g. – In the above proposed model, we have used 2 mins cycle time. In these 2 mins, each signal will be on at-least once. In this 2 min duration, our model ensures that it is fair in giving equal priority to all vehicles to cross the signal. But it does not ensure optimality, because if there is a heavy traffic density on the other side of the road, 2 mins is a short duration for that traffic to clear. We want to achieve perfect balance between fairness and optimality (which is essentially finding out the signal cycle time).
-We want to achieve this balance with the help of an AI model which will be able to predict optimal yet fair tarffic signal durations.
+IDEA
+
+We are aiming to solve the traffic congestion problem by optimising the signal timer durations. This will be done by setting the timers proportional to their respective road traffic density. 
+Do take a look at the Presentation Created by Us: 
 
 
-Do let us know your suggestions on what all changes we can make to improve our solution and also guide us on implementing the AI model.
+HOW
+
+Traffic Density will be tracked using a ‘Traffic Flow’ API. This traffic density data will be used in real-time to calculate the wait time for each signal. So, for eg on a 4-way crossroad, if one of the roads has a greater traffic density, then, the signal wait time will be proportionally lower. 
+
+
+REPO
+
+STEP 1: Calculate the Traffic Signal Timer formula for a Cross-Road. (Used Random Integer Instead of Real Time Data)
+        FILE:  Signal_Timer_Model_1.ipynb 
+    
+STEP 2: Accessing Real Time Data. (Trial was Done Using TomTom API - Later Shifted to AZURE MAPS API)
+        FILE: Signal Timer Model 2.ipynb
+
+STEP 3: Integration of STEP 1 and STEP 2 - Using Real Time data with Signal Timer Algorithm
+        FILES: Integration 1.ipynb, Integration 2.ipynb.
+        
+
