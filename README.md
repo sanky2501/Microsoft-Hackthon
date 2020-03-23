@@ -38,7 +38,7 @@ Traffic Density will be tracked using a ‘Traffic Flow’ API. This traffic den
 
 **STEP 3:** Integration of STEP 1 and STEP 2 - Using Real Time data with Signal Timer Algorithm
 
-**FILES:** [Integration 1](Integration 1.ipynb), [Integration 2](Integration 2.ipynb), parihar1.PNG, parihar2.PNG, parihar3.PNG, parihar4.PNG
+**FILES:** Integration 1.ipynb, Integration 2.ipynb, parihar1.PNG, parihar2.PNG, parihar3.PNG, parihar4.PNG
 
 
 **Integration 2.ipynb is our _PROTOTYPE._**
