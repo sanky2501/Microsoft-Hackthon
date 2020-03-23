@@ -5,11 +5,19 @@
 
 **Problem Statement**
 
-Smart Traffic Management System for Quick Commute and Carbon Reduction
+*Smart Traffic Management System for Quick Commute and Carbon Reduction*
+
+Traffic congestion is rising in cities around the world. Contributing factors include expanding urban population, aging infrastructure, inefficient and uncoordinated traffic signal timing and a lack of real-time data.
+
+Advanced traffic management technologies such as adaptive traffic control and traffic analytics can improve safety and significantly decrease traffic congestion levels and greenhouse gas (GHG) emissions.
+
+Create a solution for smart cities with mature traffic management.
 
 
 
-**IDEA:**
+
+
+**Idea**
 
 We are aiming to solve the traffic congestion problem by optimising the signal timer durations. This will be done by setting the timers proportional to their respective road traffic density. 
 Do take a look at the Presentation Created by Us: CodeForTheFuture_TechnoPandits.pdf
@@ -17,11 +25,14 @@ Do take a look at the Presentation Created by Us: CodeForTheFuture_TechnoPandits
 
 
 
-**HOW:**
-
+**Approach**
+The first step is to find traffic flow on every side of a crossroad. This is done by fetching data from 'Traffic Flow' API. Here we have used Azure Maps API
 Traffic Density will be tracked using a ‘Traffic Flow’ API. This traffic density data will be used in real-time to calculate the wait time for each signal. So, for eg on a 4-way crossroad, if one of the roads has a greater traffic density, then, the signal wait time will be proportionally lower. 
 
 
+**devDependencies**
+* Jupyter Notebook
+* Azure Maps API
 
 
 **REPO:**
