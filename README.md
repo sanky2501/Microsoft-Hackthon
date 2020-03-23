@@ -35,6 +35,8 @@ STEP 3: Integration of STEP 1 and STEP 2 - Using Real Time data with Signal Time
 FILES: Integration 1.ipynb, Integration 2.ipynb, parihar1.PNG, parihar2.PNG, parihar3.PNG, parihar4.PNG
 
 
+Integration 2.ipynb is our PROTOTYPE.
+
 
 AZURE LINK: https://notebooks.azure.com/sgumredkar/projects/microsoft-code-for-future
 
