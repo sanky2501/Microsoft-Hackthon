@@ -3,6 +3,12 @@
 
 ***TEAM: TECHNO PANDITS***
 
+**Problem Statement**
+
+Smart Traffic Management System for Quick Commute and Carbon Reduction
+
+
+
 **IDEA:**
 
 We are aiming to solve the traffic congestion problem by optimising the signal timer durations. This will be done by setting the timers proportional to their respective road traffic density. 
@@ -22,17 +28,17 @@ Traffic Density will be tracked using a ‘Traffic Flow’ API. This traffic den
 
 **STEP 1:** Calculate the Traffic Signal Timer formula for a Cross-Road. (Used Random Integer Instead of Real Time Data)
 
-**FILE:**  Signal_Timer_Model_1.ipynb 
+**FILE:**  [Signal_Timer_Model_1](Signal_Timer_Model_1.ipynb)
 
 
 **STEP 2:** Accessing Real Time Data. (Trial was Done Using TomTom API - Later Shifted to AZURE MAPS API)
 
-**FILE:** Signal Timer Model 2.ipynb
+**FILE:** [Signal_Timer_Model_2](Signal_Timer_Model_2.ipynb)
 
 
 **STEP 3:** Integration of STEP 1 and STEP 2 - Using Real Time data with Signal Timer Algorithm
 
-**FILES:** Integration 1.ipynb, Integration 2.ipynb, parihar1.PNG, parihar2.PNG, parihar3.PNG, parihar4.PNG
+**FILES:** [Integration 1](Integration 1.ipynb), [Integration 2](Integration 2.ipynb), parihar1.PNG, parihar2.PNG, parihar3.PNG, parihar4.PNG
 
 
 **Integration 2.ipynb is our _PROTOTYPE._**
