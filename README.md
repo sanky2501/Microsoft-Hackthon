@@ -32,9 +32,11 @@ So, for eg on a 4-way crossroad, if one of the roads has a greater traffic densi
 * After finding optimal signal timings, the signal timers are set as per those timings.
 * The whole process is repeated after an interval of 2 min. This is done to achieve the **real time** aspect of our model.
 
-Following is the flowchart of our model :-
+## Flowchart of Model :-
 ![Flowchart](https://github.com/sanky2501/Microsoft-Hackthon/blob/master/Flowchart.jpg)
 
+## Structure of Model
+![Structure](https://github.com/sanky2501/Microsoft-Hackthon/blob/master/Structure.PNG)
 
 
 **devDependencies**
@@ -74,6 +76,20 @@ To better understand about the locations fed to API refer the diagram below :-
 * A RED Dot denotes a location fed to the API
 
 ![API Locations](https://github.com/sanky2501/Microsoft-Hackthon/blob/master/72dadc01-1964-448e-8b3f-1141eb0debac.jpg)
+
+## Advantages of our Model :-
+* Real-Time Solution
+* Addresses All Ranges of Traffic Densities
+* Low Maintenance Cost  
+* High Accuracy and Consistency
+* Does Not Depend on any External Factors like Weather, Road Construction, Human Intervention, etc
+
+## Drawback :-
+* The model may not work efficiently if the locations fed to the Maps API are not precise. 
+
+## Future Scope:-
+* Include Pedestrian Timers
+* Integrating with other traffic solutions
 
 **Integration 2.ipynb is our _FINAL PROTOTYPE._**
 
