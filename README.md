@@ -32,10 +32,10 @@ So, for eg on a 4-way crossroad, if one of the roads has a greater traffic densi
 * After finding optimal signal timings, the signal timers are set as per those timings.
 * The whole process is repeated after an interval of 2 min. This is done to achieve the **real time** aspect of our model.
 
-## Flowchart of Model :-
+## Flowchart :-
 ![Flowchart](https://github.com/sanky2501/Microsoft-Hackthon/blob/master/Flowchart.jpg)
 
-## Structure of Model
+## Structure
 ![Structure](https://github.com/sanky2501/Microsoft-Hackthon/blob/master/Structure.PNG)
 
 
