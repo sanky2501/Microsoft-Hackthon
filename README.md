@@ -1,4 +1,4 @@
-# Microsoft Open Source Hackthon 2020
+# Microsoft Open Source Hackathon 2020
 
 
 ***TEAM: TECHNO PANDITS***
@@ -27,7 +27,7 @@ Do take a look at the Presentation Created by Us: CodeForTheFuture_TechnoPandits
 
 **Approach**
 * The first step is to find traffic flow on every side of a crossroad. This is done by fetching data from 'Traffic Flow' API. Here we have used [Azure Maps API](https://azure.microsoft.com/en-in/services/azure-maps/).  Azure Maps API is one of the leading traffic flow API with an accuracy over 96%. This traffic density data will be used in real-time to calculate the wait time for each signal.
-* Now that our model has the traffic distribution along the crossroad, the next step would be to find optimal trffic signal timings. We try to optimize signal timings by focusing more on **_equity_ over equality.** In simple words, the signal wait time would be indirectly proportional to the traffic flow on a side rather than having same wait time for all sides of the crossroad.
+* Now that our model has the traffic distribution along the crossroad, the next step would be to find optimal traffic signal timings. We try to optimize signal timings by focusing more on **_equity_ over equality.** In simple words, the signal wait time would be indirectly proportional to the traffic flow on a side rather than having same wait time for all sides of the crossroad.
 So, for eg on a 4-way crossroad, if one of the roads has a greater traffic density, then, the signal wait time will be proportionally lower.
 * After finding optimal signal timings, the signal timers are set as per those timings.
 * The whole process is repeated after an interval of 2 min. This is done to achieve the **real time** aspect of our model.
